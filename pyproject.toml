@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llm-sentiment-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["Christian Laurean <christianlaurean1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+streamlit = "^1.38.0"
+langchain = "^0.2.11"
+langchain-openai = "^0.1.20"
+python-dotenv = "^1.0.1"
+jupyterlab = "^4.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
